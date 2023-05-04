@@ -150,7 +150,7 @@ a {
   }  
 
 /* КОРОТКО ПРО НАШУ КОМАНДУ */
-.ourteam {
+/* .ourteam {
     display: flex;
     justify-content: center;
     margin: auto;
@@ -192,7 +192,7 @@ a {
     width: 20%;
     box-sizing: border-box;
     padding: 0 20px;
-}
+} */
 
 /* ПРО НАС */
 section {
@@ -207,9 +207,11 @@ section h2 {
     color: #f7ddba;
 }
 
-.container {
+.container-about {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    text-align: center;
+    flex-direction: column;
     max-width: 800px;
     margin: 0 auto;
     padding: 0 1rem;
@@ -224,6 +226,15 @@ section h2 {
 /* НАША КОМАНДА */
 #team {
     background-color: #8b7d70;
+}
+.container-team {
+    display: flex;
+    /* justify-content: center; */
+    text-align: center;
+    flex-direction: row;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
 
 .team-member {
@@ -256,21 +267,20 @@ section h2 {
     padding-bottom: 0.8rem;
 }
 
-/* НАШІ РЕГУЛЯРНІ КЛІЄНТИ*/
-.our-clients-div {
-    margin: 5%;
-}
-
-.our-clients-div svg:hover {
-    fill: #2196F3;
-}
-
 /* Підвал */
 footer {
     background-color: #333;
     color: #fff;
     padding: 1rem;
     text-align: left;
+}
+.container-footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
 
 footer h1 {
