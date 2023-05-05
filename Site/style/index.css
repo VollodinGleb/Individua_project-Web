@@ -3,12 +3,11 @@
 
 /* ОСНОВНІ СТИЛІ */
 * {
+    font-family: Arial, sans-serif;
+    
     margin: 0;
     padding: 0;
-}
-
-body {
-    font-family: Arial, sans-serif;
+    max-width: 3000px;
 }
 
 /* НАВІГАЦІЙНЕ МЕНЮ */
@@ -197,6 +196,7 @@ a {
 /* ПРО НАС */
 section {
     background-color: #333;
+    /* background-color: #8b7d70; */
     padding: 3rem 0;
 }
 
@@ -209,18 +209,50 @@ section h2 {
 
 .container-about {
     display: flex;
-    /* justify-content: center; */
-    text-align: center;
+    justify-content: center; 
+    /* text-align: center; */
     flex-direction: column;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 1rem;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0;
+    padding: 1rem 5.5rem;
 }
+.container-about > .container-first-block, 
+.container-second-block, .container-third-block {
+    background-color: #999;
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+}
+/* .container-second-block {
+    background-color: #999;
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+}
+.container-third-block {
+    background-color: #999;
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+} */
 
+.container-text{
+    padding: 10rem 0 0 5rem;
+    max-width: 500px;
+
+    /* color: #d2d1d1; */
+}
+.container-text h3 {
+    padding: 0 0 3rem 0;
+    color: #d2d1d1;
+}
 .our-works img {
-    margin: 20px;
-    width: 300px;
-    height: 250px;
+    /* margin: 20px; */
+    width: 400px;
+    height: 550px;
+    margin: 0;
+    padding: 5rem 0 0 0;;
 }
 
 /* НАША КОМАНДА */
