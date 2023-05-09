@@ -199,7 +199,7 @@ section {
     padding-top: 3rem;
 
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-direction: column;
 }
 
@@ -212,22 +212,24 @@ section h2 {
 
 .container-about {
     display: flex;
-    justify-content: center; 
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     flex-wrap: wrap;
-    max-width: 1500px;
+    max-width: 2500px;
     margin: 0;
     padding: 1rem 5.5rem;
 }
 .container-about > .container-first-block, 
 .container-second-block, .container-third-block {
-    background-color: #999;
+    background-color: #8b7d70;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    max-width: 40%;
-    /* margin-top: 3rem; */
+    justify-content: left;
+    flex-direction: row;
+    /* max-width: 150%; */
+    width: 114%;
+    height: 70%;
+    margin-bottom: 3rem;
+    margin-left: -6rem;
 }
 /* .container-second-block {
     background-color: #999;
@@ -240,22 +242,29 @@ section h2 {
 } */
 
 .container-text{
-    padding: 10rem 0 0 5rem;
+    padding: 2rem 0 0 5rem;
     max-width: 500px;
 
+    line-height: 1.5;
     /* color: #d2d1d1; */
 }
 .container-text h3 {
+    text-align: center;
     padding: 0 0 3rem 0;
+
+    font-size: 50px;
     color: #d2d1d1;
 }
-.our-works img {
+.our-works{
     /* margin: 20px; */
-    width: 200px;
-    height: 300px;
-    margin: 0;
-    padding: 5rem 0 0 5rem;
-
+    width: 500px;
+    height: 600px;
+    /* margin-left: -6rem; */
+    /* padding: 5rem 0 0 0; */
+}
+.our-works img {
+    width: 500px;
+    height: 600px;
 }
 
 /* НАША КОМАНДА */
