@@ -255,6 +255,7 @@ section {
     line-height: 1.5;
 
     border-bottom: 30px ridge #8b7d70;
+    box-shadow: inset 20px 15px 30px 15px rgba(0, 0, 0, 0.5);
     /* color: #d2d1d1; */
 }
 .container-text h3 {
