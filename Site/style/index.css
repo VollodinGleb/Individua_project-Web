@@ -92,9 +92,9 @@ a {
 /* ШАПКА */
   .banner {
     position: relative;
-    height: 850px;
     width: auto;
-  }
+    height: 850px;
+}
   
   .banner img {
     position: absolute;
@@ -178,26 +178,17 @@ section {
     flex-direction: column;
     justify-content: left;
     flex-wrap: wrap;
-<<<<<<< Updated upstream
     max-width: 100%;
-=======
-    max-width: 3500px;
->>>>>>> Stashed changes
     margin: 0;
     padding-top: 1rem;
 }
 
 .container-about > .container-first-block, 
 .container-second-block, .container-third-block {
-<<<<<<< Updated upstream
     background-color: #8b7d70;
-=======
-    background-color: #777167;
->>>>>>> Stashed changes
     display: flex;
     justify-content: left;
     flex-direction: row;
-<<<<<<< Updated upstream
     /* min-width: 114%; */
     /* max-width: 130%; */
     /* width: 114%;     */
@@ -215,43 +206,11 @@ section {
     /* border-bottom: 30px ridge #8b7d70; */
     /* box-shadow: inset 20px -52px 30px 15px rgba(0, 0, 0, 0.5); */
     /* color: #d2d1d1; */
-=======
-    max-width: 100%;
-    padding: 5rem 0 5.5rem 5.5rem;
-    margin-top: 50px;
-}
-
-.container-first-block {
-    border-top: 50px ridge #f7ddba;
-    border-left: 100px ridge black;
-    /* border-bottom: 50px ridge black; */
-}
-
-.container-second-block {
-    border-left: 100px ridge black;
-    /* border-bottom: 50px ridge black; */
-}
-
-.container-third-block {
-    border-left: 100px ridge black;
-    border-bottom: 50px ridge black;
-    /* border-top: 50px ridge black; */
-}
-
-.container-text {
-    padding: 5rem 0 0 5rem;
-    max-width: 500px;
-
-    line-height: 1.5;
-    font-size: 20px;
-    color: #353535;
->>>>>>> Stashed changes
 }
 .container-text h3 {
     text-align: center;
     padding: 0 0 3rem 0;
 
-<<<<<<< Updated upstream
     font-size: 50px;
     color: #d2d1d1;
 }
@@ -274,21 +233,10 @@ section {
 .our-works img {
     width: 700px;
     height: 500px;
+    object-fit: cover;
+
     /* border-right: 40px ridge #8b7d70; */
     box-shadow: 30px 15px 30px 15px rgba(0, 0, 0, 0.5);
-=======
-    font-size: 30px;
-    color: #d2d1d1;
-}
-.our-works img {
-    width: 400px;
-    height: 550px;
-    margin: 0;
-    
-    border:50px solid black;
-    box-shadow: 10px 30px 20px 10px #d2d1d1;
-    /* padding: 5rem 0 0 0;; */
->>>>>>> Stashed changes
 }
 
 /* НАША КОМАНДА */
@@ -317,9 +265,7 @@ section {
     margin: 1.5rem 2rem 3rem 0;
     border: 0.1rem solid #E5E5E5;
     background-color: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
-    0px 1px 1px rgba(0, 0, 0, 0.14), 
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .team-member img {
@@ -353,54 +299,89 @@ section {
 
 /* Підвал */
 footer {
-    background-color: #333;
+    background-color: #8b7d70;
     color: #fff;
-    padding: 1rem;
+    padding: 3rem;
+    height: 130px;
     text-align: left;
 }
+
 .container-footer {
     display: flex;
-    justify-content: center;
-    flex-direction: row;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 1rem;
+    justify-content: left;
+    padding-left: 5rem;
+}
+
+.container-footer-adress {
 }
 
 footer h1 {
     position: relative;
-    font-family: 'Raleway';
     font-weight: 700;
-    color: #FFFFFF;
+    color: #333;
     font-size: 1.2rem;
     padding-bottom: 1rem;
 }
 
-footer h2 {
-    position: relative;
-    font-family: 'Raleway';
-    font-size: 1.2rem;
-    padding-right: 1.5rem;
-    font-weight: 700;
-    color: #2196F3;
-    letter-spacing: 0.03em;
+.logo-footer {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+.adress ul {
+    list-style: none;
 }
 
-footer li {
+.adress li {
+    padding-top: .5rem;
+}
+
+.link {
     list-style-type: none;
+    text-decoration: none;
+    color: #333;
+    padding-left: 1rem;
 }
-
-address {
-    padding-top: 2rem;
-    position: relative;
-    left: -20%;
+.link-email, .link-phone {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 15px;
+    color: #333;
+    padding-left: 1rem;
 }
 
 .svg-links {
+    padding-left: 7rem;
     stroke-width: 0.15rem;
     stroke: none;
 }
 
-.svg-links svg:hover {
-    stroke: #2196F3;
-}
+/* Возможно прейдеться кардинально другой подход к реализации иконок*/
+
+.social-media a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .fa {
+    display: inline-block;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #333;
+  }
+  .fa-facebook {
+    background-color: #3b5998;
+  }
+  .fa-twitter {
+    background-color: #00aced;
+  }
+  .fa-instagram {
+    background-color: #3f729b;
+  }
+  
