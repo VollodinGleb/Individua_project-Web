@@ -356,6 +356,9 @@ footer h1 {
     stroke-width: 0.15rem;
     stroke: none;
 }
+
+/* Возможно прейдеться кардинально другой подход к реализации иконок*/
+
 .social-media a {
     display: inline-block;
     margin-right: 10px;
