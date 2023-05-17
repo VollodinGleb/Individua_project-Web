@@ -4,12 +4,9 @@
 /* ОСНОВНІ СТИЛІ */
 * {
     font-family: Arial, sans-serif;
+    
     margin: 0;
     padding: 0;
-<<<<<<< HEAD
-    max-width: 150%;
-=======
->>>>>>> badd26f7765528b17629fe81dc902a382ee0a319
 }
 
 /* НАВІГАЦІЙНЕ МЕНЮ */
@@ -41,11 +38,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-<<<<<<< HEAD
-    min-width: 80%;
-=======
     width: 100%;
->>>>>>> badd26f7765528b17629fe81dc902a382ee0a319
 }
 
 a {
@@ -99,6 +92,8 @@ a {
 /* ШАПКА */
   .banner {
     position: relative;
+    height: 850px;
+    width: auto;
   }
   
   .banner img {
@@ -194,14 +189,9 @@ section {
     display: flex;
     justify-content: left;
     flex-direction: row;
-<<<<<<< HEAD
-    max-width: 150%;
-    width: 114%;
-=======
     /* min-width: 114%; */
     /* max-width: 130%; */
     /* width: 114%;     */
->>>>>>> badd26f7765528b17629fe81dc902a382ee0a319
     height: 70%;
     margin-bottom: 3rem;
     margin-left: -6rem;
@@ -230,11 +220,7 @@ section {
 
     box-shadow: inset 0px -40px 30px -25px rgba(0, 0, 0, 0.5);
 
-<<<<<<< HEAD
-    max-width: 150%;
-=======
     width: 100%;
->>>>>>> badd26f7765528b17629fe81dc902a382ee0a319
 }
 
 .our-works{
@@ -318,10 +304,10 @@ footer {
 }
 .container-footer {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     flex-direction: row;
-    /* max-width: 800px; */
-    /* margin-right: 50px; */
+    max-width: 800px;
+    margin: 0 auto;
     padding: 0 1rem;
 }
 
