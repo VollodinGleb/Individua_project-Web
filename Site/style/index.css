@@ -4,10 +4,9 @@
 /* ОСНОВНІ СТИЛІ */
 * {
     font-family: Arial, sans-serif;
-    
     margin: 0;
     padding: 0;
-    max-width: 3000px;
+    max-width: 150%;
 }
 
 /* НАВІГАЦІЙНЕ МЕНЮ */
@@ -38,7 +37,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    min-width: 1300px;
+    min-width: 80%;
 }
 
 a {
@@ -232,7 +231,7 @@ section {
     display: flex;
     justify-content: left;
     flex-direction: row;
-    /* max-width: 150%; */
+    max-width: 150%;
     width: 114%;
     height: 70%;
     margin-bottom: 3rem;
@@ -262,7 +261,7 @@ section {
 
     box-shadow: inset 0px -40px 30px -25px rgba(0, 0, 0, 0.5);
 
-    width: 2500px;
+    max-width: 150%;
 }
 
 .our-works{
@@ -346,10 +345,10 @@ footer {
 }
 .container-footer {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-direction: row;
-    max-width: 800px;
-    margin: 0 auto;
+    /* max-width: 800px; */
+    /* margin-right: 50px; */
     padding: 0 1rem;
 }
 
