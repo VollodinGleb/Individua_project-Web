@@ -157,12 +157,10 @@ a {
         transform: scale(1.1);
     }
   }
-  /* Add color  */
-  .banner button::before{
 
+  .banner button::after {
+    background-color: #999;
   } 
-
-  
 
 /* ПРО НАС */
 section {
