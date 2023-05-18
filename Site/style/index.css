@@ -145,9 +145,24 @@ a {
   }
 
   .banner button:hover {
-    background-color: #2176f3;
+    background-color: #8b7d70;
     stroke: #E5E5E5;
+    animation-name: pulse;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
   }  
+  @keyframes pulse {
+    50% {
+        transform: scale(1.1);
+    }
+  }
+  /* Add color  */
+  .banner button::before{
+
+  } 
+
+  
 
 /* ПРО НАС */
 section {
@@ -263,15 +278,18 @@ section {
 .team-member {
     text-align: center;
     margin: 1.5rem 2rem 3rem 0;
-    border: 0.1rem solid #E5E5E5;
-    background-color: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    /* background-color: #FFFFFF; */
 }
 
 .team-member img {
+    border-bottom: 10px ridge #8b7d70;
+    border-left: 10px ridge #8b7d70;
+    border-right: 10px ridge #8b7d70;
+    box-shadow: 0 -25px 20px rgba(0, 0, 0, 0.14);
+
     max-width: 250px;
-    max-height: 350px;
-    margin-bottom: 1rem;
+    height: 350px;
+    object-fit: cover;
 }
 
 #team h2 {
@@ -289,6 +307,9 @@ section {
 .team-member h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
+    color: #d2d1d1;
+    border-bottom: 5px ridge #8b7d70;
+    box-shadow: 0 25px 10px rgba(0, 0, 0, 0.14);
 }
 
 .team-member p {
@@ -301,7 +322,7 @@ section {
 footer {
     background-color: #8b7d70;
     color: #fff;
-    padding: 3rem;
+    padding-top: 1rem;
     height: 130px;
     text-align: left;
 }
@@ -312,8 +333,8 @@ footer {
     padding-left: 5rem;
 }
 
-.container-footer-adress {
-}
+/* .container-footer-adress {
+} */
 
 footer h1 {
     position: relative;
@@ -351,7 +372,7 @@ footer h1 {
     padding-left: 1rem;
 }
 
-.svg-links {
+.social-links {
     padding-left: 7rem;
     stroke-width: 0.15rem;
     stroke: none;
@@ -364,24 +385,11 @@ footer h1 {
     margin-right: 10px;
   }
   
-  .fa {
+.fa {
     display: inline-block;
-    font-size: 25px;
+    font-size: 35px;
     width: 40px;
-    height: 40px;
-    line-height: 40px;
     text-align: center;
-    border-radius: 50%;
-    color: #fff;
-    background-color: #333;
-  }
-  .fa-facebook {
-    background-color: #3b5998;
-  }
-  .fa-twitter {
-    background-color: #00aced;
-  }
-  .fa-instagram {
-    background-color: #3f729b;
-  }
+    color: #f7ddba;
+}
   
