@@ -5,11 +5,6 @@
 #Contacts {
     background-color: #4c4a49;
     padding-top: 3rem;
-
-    display: flex;
-    justify-content: left;
-    flex-direction: column;
-
     width: auto;
     min-height: 1000px;
 }
@@ -19,8 +14,65 @@
     color: #f7ddba;
     border-bottom: 15px ridge #8b7d70;
     
-    display: flex;
-    justify-content: center;
+    text-align: center;
     padding-bottom: 1.5rem;
     height: 30px;
+}
+.container-contacts {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    border: 5px ridge #f7ddba;
+}
+
+.container-form form{
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 20rem;
+    margin-top: 5rem;
+}
+
+.contact-form:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.contact-form .input {
+    width: 150%;
+    height: 30px;
+	margin-bottom: 20px;
+}
+
+.contact-form textarea.input {
+	width: 200px;
+    height: 200px;
+}
+
+/* -- Contact Information -- */
+.container-contacts-info {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+}
+.contact-details li  {
+	margin-bottom:20px;
+}
+
+.contact-details li i {
+	color: #f7ddba;
+	margin-right: 15px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+/* -- Contact Map -- */
+#contact-map {
+    width: 500px;
+	height:360px;
+	border-radius:4px;
 }
