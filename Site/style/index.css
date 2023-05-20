@@ -201,10 +201,7 @@ section {
     background-color: #8b7d70;
     display: flex;
     justify-content: left;
-    flex-direction: row;
-    /* min-width: 114%; */
-    /* max-width: 130%; */
-    /* width: 114%;     */
+    flex-direction: row;  
     height: 70%;
     margin-bottom: 3rem;
     margin-left: -6rem;

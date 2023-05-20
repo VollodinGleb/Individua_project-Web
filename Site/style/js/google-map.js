@@ -1,8 +1,15 @@
 function initMap() {
-    // Create a map object and specify the initial coordinates
+    var position = { lat: 49.4063843, lng: 32.0555585 }
+
     var map = new google.maps.Map(document.getElementById('contact-map'), {
-      center: { lat: 37.7749, lng: -122.4194 }, // Set the initial coordinates
-      zoom: 12 // Set the initial zoom level
+      center: position, 
+      zoom: 15
+    });
+
+    var marker = new google.maps.Marker({
+      position: position, 
+      map: map, 
+      title: 'Main Gachi club'
     });
   }		
   
