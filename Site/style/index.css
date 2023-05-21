@@ -223,6 +223,12 @@ section {
 
     font-size: 50px;
     color: #d2d1d1;
+    padding-bottom: 0;
+    border-bottom: 10px solid #3a342f;
+    margin-bottom: 20px;
+    margin-left: -5rem;
+    margin-right: -3rem;
+
 }
 .container-wrap {
     border-bottom: 30px ridge #8b7d70;
