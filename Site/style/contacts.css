@@ -63,9 +63,12 @@ form .input {
     color: #d2d1d1;
     box-sizing: border-box;
     font-size: 14px;
+
+    transition: transform 0.3s ease;
 }
 
 form .input:hover {
+    transform: translateX(-8px);
     box-shadow: 0 10px 15px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -86,10 +89,13 @@ form button {
     border-radius: 4px;
     cursor: pointer;
     font-size: 14px;
+
+    transition: transform 0.3s ease;
 }
 
 form button:hover {
     background-color: #555;
+    transform: translateY(8px);
 }
 
 .contact-form textarea.input {
@@ -125,10 +131,12 @@ form button:hover {
 	
     color: #d2d1d1;
     text-decoration: none;
+    transition: transform 0.3s ease;
 }
 
 .contact-details a:hover {
-    box-shadow: 0 15px 15px -10px rgba(0, 0, 0, 0.1);
+    transform: translateX(-8px);
+    /* box-shadow: 0 15px 15px -10px rgba(0, 0, 0, 0.1); */
 
 } 
 
