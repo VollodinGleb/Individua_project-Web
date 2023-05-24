@@ -147,6 +147,9 @@ a {
   .banner button::after {
     background-color: #999;
   } 
+  .banner a {
+    text-decoration: none;
+  }
 
 /* ПРО НАС */
 section {

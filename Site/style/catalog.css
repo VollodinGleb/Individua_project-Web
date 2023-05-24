@@ -67,18 +67,23 @@
 }
 
 .product h3 {
-  font-size: 18px;
+  font-size: 30px;
   color: #d2d1d1;
   text-align: center;
   border-bottom: 15px ridge #8b7d70;
 }
-
+.category {
+  margin-top: 1rem;
+  font-size: 30px;
+  color: #d2d1d1;
+  text-align: center;
+}
 .product p {
   font-size: 16px;
   padding-bottom: 5%;
 }
 
-.modal-button {
+.button {
   width: 200px;
   height: 50px;
   margin-top: 20px;
@@ -93,7 +98,7 @@
   transition: transform 0.5s ease;
 }
 
-.modal-button:hover {
+.button:hover {
   background-color: #8b7d70;
   transform: translateY(-10px);
 
@@ -183,14 +188,69 @@
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+} 
+/* 
+.container-form {
+  max-width: 600px;
+  max-height: 500px;
+  margin-top: 50px;
+  padding: 20px;
+  padding-top: 60px;
+  background-color: #4c4a49;
+  border-radius: 5px;
+  box-shadow: 0 30px 45px -10px rgba(0, 0, 0, 0.1);
+} */
+
+form h4 {
+  margin-bottom: 60px;
+  font-size: 18px;
+  color: #d2d1d1;
+  text-align: center;
+  border-bottom: 8px ridge #8b7d70;
+}
+
+.contact-form form:after {
+content:"";
+display:block;
+clear:both;
+}
+
+form .input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 35px;
+  background-color: #4c4a49;
+  border: none;
+  border-bottom: 3px ridge #8b7d70;
+  color: #d2d1d1;
+  box-sizing: border-box;
+  font-size: 14px;
+
+  transition: transform 0.3s ease;
+}
+
+form .input:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 15px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+  margin-bottom: 15px;
+}
+
+form textarea {
+  min-width: 100px;
+  min-height: 50px;
+  max-width: 400px;
+  max-height: 100px;
 }
 
 .modal-button:hover {
   background-color: #8b7d70;
-}
+} 
 
 .close {
-  color: #aaa;
+  color: #4c4a49;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -199,7 +259,7 @@
 
 .close:hover,
 .close:focus {
-  color: black;
+  color: #d2d1d1;;
   text-decoration: none;
   cursor: pointer;
 }
