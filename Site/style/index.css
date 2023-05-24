@@ -56,14 +56,13 @@ a {
     text-decoration: none;
     color: #333;
     padding: 10px;
+
+    transition: transform 0.5s ease;
 }
 
 .pages a:hover {
     color: #d2d1d1;
-}
-
-.email_phone {
-    margin-left: 30%;
+    transform: translateY(-5px);
 }
 
 .email_phone a {
@@ -71,19 +70,11 @@ a {
     padding: 10px;
 }
 
-.email {
+.email, .phone {
     color: #333;
 }
 
-.phone {
-    color: #333;
-}
-
-.phone:hover {
-    color: #d2d1d1;
-    border-bottom: 2.5px solid #f7ddba;
-}
-
+.phone:hover, 
 .email:hover {
     color: #d2d1d1;
     border-bottom: 2.5px solid #f7ddba;
@@ -107,7 +98,7 @@ a {
 }
   
   .banner-content {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -116,7 +107,7 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-align: center;
+    /* text-align: center; */
     z-index: 1;
   }
   
@@ -142,25 +133,23 @@ a {
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
     color: #333;
+
+    transition: transform 0.5s ease;
+
   }
 
   .banner button:hover {
     background-color: #8b7d70;
     stroke: #E5E5E5;
-    animation-name: pulse;
-    animation-duration: 1.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
+    transform: translateY(8px);
   }  
-  @keyframes pulse {
-    50% {
-        transform: scale(1.1);
-    }
-  }
 
   .banner button::after {
     background-color: #999;
   } 
+  .banner a {
+    text-decoration: none;
+  }
 
 /* ПРО НАС */
 section {
@@ -392,4 +381,10 @@ footer h1 {
     width: 40px;
     text-align: center;
     color: #f7ddba;
+
+    transition: transform 0.5s ease;
+}
+
+.fa:hover {
+    transform: translateY(-10px);
 }

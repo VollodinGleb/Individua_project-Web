@@ -40,105 +40,66 @@
 					
 					<div class="product">
 						<img src="style/images/catalog/martin.jpg" >
-						<div class="overlay">...</div>
+						<div class="overlay"></div>
 						<h3>Man</h3>
-						<p class="category">1</p>
-						<button class="modal-button">
+						<h4 class="category">1</h4>
+						<button class="button">
 							Замовити
 						</button>
 					</div>
 					
 					<div class="product">
 						<img src="style/images/catalog/benedict.jpg">
-						<div class="overlay">...</div>
+						<div class="overlay"></div>
 						<h3>Man</h3>
-						<p class="category">2</p>
-						<button class="modal-button">
+						<h4 class="category">2</h4>
+						<button class="button">
 							Замовити
 						</button>
 					</div>
 
 					<div class="product">
 						<img src="style/images/catalog/tom-cruise-33.jpg">
-						<div class="overlay">...</div>
+						<div class="overlay"></div>
 						<h3>Man</h3>
-						<p class="category">3</p>
-						<button class="modal-button">
+						<h4 class="category">3</h4>
+						<button class="button">
 							Замовити
 						</button>
 					</div>
 				
 					<div class="product">
 						<img src="style/images/Portfolio/headphones-mobile.jpg">
-						<div class="overlay">...</div>
+						<div class="overlay"></div>
 						<h3>Man</h3>
-						<p class="category">4</p>
-						<button class="modal-button">
+						<!-- <p class="category">4</p> -->
+						<button class="button">
 							Замовити
 						</button>
 					</div>
 
 					<div class="product">
 						<img src="style/images/Portfolio/boxes.jpg">
-						<div class="overlay">...</div>
+						<div class="overlay"></div>
 						<h3>Man</h3>
-						<p class="category">5</p>
-						<button class="modal-button">
+						<!-- <p class="category">5</p> -->
+						<button class="button">
 							Замовити
 						</button>
 					</div>
 					
 					<div class="product">
 						<img src="style/images/Portfolio/inspiration.jpg">
-						<div class="overlay">...</div>
+						<div class="overlay"></div>
 						<h3>Man</h3>
-						<p class="category">6</p>
-						<button class="modal-button">
-							Замовити
-						</button>
-					</div>
-	
-					<div class="product">
-						<img src="style/images/Portfolio/inspiration.jpg">
-						<div class="overlay">...</div>
-						<h3>Man</h3>
-						<p class="category">7</p>
-						<button class="modal-button">
-							Замовити
-						</button>
-					</div>
-					
-					<div class="product">
-						<img src="style/images/Portfolio/inspiration.jpg">
-						<div class="overlay">...</div>
-						<h3>Man</h3>
-						<p class="category">8</p>
-						<button class="modal-button">
-							Замовити
-						</button>
-					</div>
-					
-					<div class="product">
-						<img src="style/images/Portfolio/inspiration.jpg">
-						<div class="overlay">...</div>
-						<h3>Man</h3>
-						<p class="category">9</p>
-						<button class="modal-button">
+						<!-- <p class="category">6</p> -->
+						<button class="button">
 							Замовити
 						</button>
 					</div>
 				</div>
 			</div>
 		</section>  
-		
-
-		<!-- НАША КОМАНДА -->
-		<section id="team">
-			<h2>Головні правила</h2>
-			<div class="container-team">
-
-			</div>
-		</section>
 
 		<!-- ПІДВАЛ -->
 		<footer>
@@ -177,6 +138,26 @@
 			</div>
 		</footer>
 	</div>
+
+	<!-- Modal windows -->
+	<div id="OrderModal" class="modal">
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			<div class="container-form">
+				<form>
+					<h4>Send A Message</h4>
+					<input class="input" type="text" name="name" placeholder="Введіть ваше ім'я">
+					<input class="input" type="email" name="email" placeholder="Мило">
+					<p class="text">Введіть ім'я та порядковий номер чоловіка</p>
+					<input class="input" type="text" name="subject" placeholder="Ім'я, номер ">
+					<textarea class="input" name="message" placeholder="Додатково"></textarea>
+					<button class="modal-button">Замовити</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="style/js/order.js"></script>
 </body>
 
 </html>
