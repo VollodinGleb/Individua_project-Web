@@ -105,8 +105,7 @@
 }
 
 .overlay {
-  display: none;
-  /* position: absolute;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -114,18 +113,27 @@
   background-color: #f7ddba; 
   opacity: 0.9;
   color: #fff;
-  display: none;
+  /* display: none; */
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 10px;
   pointer-events: none; 
-  font-size: 120%; */
+  font-size: 120%;
+
+  transition: transform 0.5s ease;
+}
+
+.overlay:hover {
+  display: none; 
+  transform: translateY(-10px);
+
 }
 
 /*  */
 .product:hover .overlay {
-  display: none; 
+  display: none;
+  transform: translateY(-60px);
 }
 
 /* MODAL WINDOWS */
