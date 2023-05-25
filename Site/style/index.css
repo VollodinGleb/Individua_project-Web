@@ -262,8 +262,12 @@ section {
     margin-bottom: 20px;
     margin-left: -5rem;
     margin-right: -3rem;
-
 }
+
+.container-text p {
+    font-size: 20px;
+}
+
 .container-wrap {
     border-bottom: 30px ridge #8b7d70;
     border-left: 30px ridge #8b7d70;
