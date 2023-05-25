@@ -5,6 +5,8 @@
 #About {
     background-color: #4c4a49;
     padding-top: 3rem;
+    margin-top: 2.5rem;
+
 
     display: flex;
     flex-direction: column;
@@ -33,6 +35,7 @@
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .text-history {
@@ -144,12 +147,55 @@
     width: 100%;
 }
 
-/* -- ДЛЯ КОГО ЦЕ -- */
-.container-text h3 {
-    margin-left: -5rem;
-    margin-right: -3rem;
-    margin-bottom: 20px;
-    padding-bottom: 0;
-    border-bottom: 10px solid #3a342f;
+@media (max-width: 1500px) {
+    .text-history {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 15em;
+    }
+    
+    .text-history h3 {
+        margin-bottom: 1rem;
+    }
 
+    .text-history p {
+        font-size: 20px;
+    }
+
+    .container-history img {
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    .first-container-service {
+        margin-bottom: 8rem;
+    }
+
+    .text-service p {
+        font-size: 20px;
+    }
 }
+
+@media (max-width: 520px)  {
+    .container-history img {
+        width: 100%;
+        border-left: none;
+    }
+    .text-history {
+        margin-bottom: 25rem;
+    }
+
+    .first-container-service, 
+    .second-container-service, 
+    .third-container-service {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    
+}
+    .text-history {
+        margin-bottom: 30rem;
+    }
